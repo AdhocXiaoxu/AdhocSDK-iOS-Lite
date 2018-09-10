@@ -1,0 +1,16 @@
+PODS:
+  - AdhocSDK (4.2.0)
+
+DEPENDENCIES:
+  - AdhocSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AdhocSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AdhocSDK: 6e63422c7c598f13a40dffdd00d3271f1fb26e3a
+
+PODFILE CHECKSUM: a972e53825a937273725e6982cda2a37ce5a23eb
+
+COCOAPODS: 1.5.2
