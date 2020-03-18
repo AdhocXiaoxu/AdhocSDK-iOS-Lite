@@ -15,10 +15,14 @@ We support all build targets for iOS 8.0 and above. Enable Bitcode, and support 
 2. 将下载得到的`AdhocSDK.framework`或`AdhocSDKLite.framework`文件添加到指定的工程.
 3. 添加编译参数 `-ObjC`.
 4. 必要链接库:
-   - Security.framework
-   - CFNetwork.framework
-   - libsqlite3.tbd
-   - libicucore.tbd (若SDK支持可视化须链接)
+
+   	- Security.framework
+	- CFNetwork.framework
+	- CoreTelephony.framework
+	- AdSupport.framework
+	- AVFoundation.framework
+  	- libsqlite3.tbd
+   	- libicucore.tbd (若SDK支持可视化须链接)
 
 
 # 权限设置
