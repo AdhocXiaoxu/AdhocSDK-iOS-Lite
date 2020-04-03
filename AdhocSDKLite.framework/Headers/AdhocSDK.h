@@ -5,7 +5,7 @@
 //  Created by AppAdhoc on 16/10/26.
 //  Copyright © 2016年 AppAdhoc. All rights reserved.
 //
-//  当前 SDK 版本：5.1.6
+//  当前 SDK 版本：5.1.7
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -124,14 +124,6 @@ NS_CLASS_AVAILABLE_IOS(8_0) @interface AdhocSDK : NSObject
  *  @return ClientID
  */
 + (NSString *)getClientID;
-
-/**
- UIWebView 调用 flag 接口
- 
- @param request 加载链接的request
- @param webView 当前的UIWebView
- */
-+ (BOOL)adhocUIWebViewExecute:(NSURLRequest *)request webView:(UIWebView *)webView;
 
 /**
  WKWebView 调用 flag 接口
