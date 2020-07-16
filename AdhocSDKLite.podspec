@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AdhocSDKLite"
-  s.version      = "5.1.9"
+  s.version      = "5.2.0"
   s.summary      = "Official AdhocSDK for iOS."
   s.description  = <<-DESC
                    The Adhoc static lib for iOS makes it easy for A/B test.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     :type => 'Commercial',
     :text => 'See https://www.appadhoc.com/clause.html'
   }
-  s.author    = { "Adhoc" => "xiaoxu@appadhoc.com" }
+  s.author    = { "Adhoc" => "info@appadhoc.com" }
   s.platform     = :ios, "8.0"
   s.source  = {
     :git => "https://github.com/AdhocXiaoxu/AdhocSDK-iOS-Lite.git",
