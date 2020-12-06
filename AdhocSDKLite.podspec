@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AdhocSDKLite"
-  s.version      = "5.2.2"
+  s.version      = "5.2.3"
   s.summary      = "Official AdhocSDK for iOS."
   s.description  = <<-DESC
                    The Adhoc static lib for iOS makes it easy for A/B test.
@@ -22,5 +22,7 @@ Pod::Spec.new do |s|
   s.frameworks = "SystemConfiguration", "Security", "CFNetwork", "CoreTelephony", "AdSupport", "AVFoundation"
   s.libraries = "sqlite3", "icucore"
   s.requires_arc = true
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
